@@ -5,6 +5,12 @@ name = "pypi"
 
 [packages]
 django = "*"
+pillow = "*"
+django-ckeditor = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+django-oauth-toolkit = "*"
 
 [dev-packages]
 

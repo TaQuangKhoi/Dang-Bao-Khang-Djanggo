@@ -132,10 +132,9 @@ MEDIA_ROOT = '%s/appweb/static/' % BASE_DIR
 CKEDITOR_UPLOAD_PATH = 'uploads/lessons/contents/'
 
 REST_FRAMEWORK = {
-    "DEFAULT_PAGINATION_CLASS":
-    "rest_framework.pagination.PageNumberPagination", 
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "PAGE_SIZE": "2",
     "DEFAULT_AUTHENTICATION_CLASSES": (
-         "oauth2_provider.contrib.rest_framework.OAuth2Authentication", 
-        ),
+        "oauth2_provider.contrib.rest_framework.OAuth2Authentication",
+    ),
 }
